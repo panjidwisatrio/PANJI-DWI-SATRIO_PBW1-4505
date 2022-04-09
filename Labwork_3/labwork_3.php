@@ -58,10 +58,11 @@ function primeNumber($head, $last) {
                 }
             }
             if ($count == 2) {
+                echo "$head ";
                 $size++;
             }
         }
-        echo "jumlah bilangan prima: $size<br><br>";
+        echo "<br>jumlah bilangan prima: $size<br><br>";
     }
 }
 
@@ -73,10 +74,11 @@ function primeNumberEnhanced($head, $last) {
     $size = 0;
     for ($i = $head; $i <= $last; $i++) {
         if (thisPrime($i)) {
+            echo "$i ";
             $size++;
         }
     }
-    echo "jumlah bilangan prima: " . $size . "<br><br>";
+    echo "<br>jumlah bilangan prima: " . $size . "<br><br>";
 }
 
 function thisPrime($number) {
@@ -104,5 +106,5 @@ function thisPrime($number) {
     }
 }
 
-primeNumberEnhanced(1, 200);
+primeNumberEnhanced(1, 30);
 ?>
