@@ -1,1 +1,4 @@
 # PANJI-DWI-SATRIO_PBW1-4505
+NAMA  : Panji Dwi satrio<br>
+NIM   : 6706213011<br>
+KELAS : D3 RPLA 45-05
